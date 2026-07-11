@@ -216,9 +216,7 @@ GitHub: [SpaceX Falcon 9 Data Science Capstone](https://github.com/joes-mza/Spac
 - [Scikit-learn Guide](https://scikit-learn.org/)
 
 ---
-
-![SpaceX Falcon 9](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Falcon_9_Full_Stack_800px.png/440px-Falcon_9_Full_Stack_800px.png)
-
+<img src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fg.foolcdn.com%2Fimage%2F%3Furl%3Dhttps%3A%252F%252Fg.foolcdn.com%252Feditorial%252Fimages%252F860625%252Ffalcon-9-rocket-launch-with-spacex-hangar-in-the-foreground-is-spacex.jpg%26w%3D3840%26op%3Dresize&f=1&nofb=1&ipt=51aca8273e61b12b5a6d66a4b29e3949f26c2078359837900083f49e19bf17fe">
 ---
 
 **Status:** Complete ✅ | **Last Updated:** July 2026
