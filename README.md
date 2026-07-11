@@ -34,7 +34,7 @@ Capstone project in data science applied to the analysis of SpaceX's Falcon 9 la
 
 ## Project Overview
 
-This project analyzes SpaceX's Falcon 9 launches to predict the success of the first-stage landing. Through a comprehensive data science workflow—from data collection and web scraping to exploratory analysis and machine learning—this capstone demonstrates practical skills in modern data science tools and techniques.
+This project analyzes SpaceX's Falcon 9 launches to predict the success of the first-stage landing. Through a comprehensive data science workflow from data collection and web scraping to exploratory analysis and machine learning this capstone demonstrates practical skills in modern data science tools and techniques.
 
 **Key Highlights:**
 - Data collection from REST APIs and web scraping
@@ -217,8 +217,8 @@ GitHub: [SpaceX Falcon 9 Data Science Capstone](https://github.com/joes-mza/Spac
 
 ---
 
-**Status:** Complete ✅ | **Last Updated:** July 2026
+![SpaceX Falcon 9](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Falcon_9_Full_Stack_800px.png/440px-Falcon_9_Full_Stack_800px.png)
 
 ---
 
-![SpaceX Falcon 9](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Falcon_9_Full_Stack_800px.png/440px-Falcon_9_Full_Stack_800px.png)
+**Status:** Complete ✅ | **Last Updated:** July 2026
