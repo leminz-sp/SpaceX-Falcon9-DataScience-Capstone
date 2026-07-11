@@ -170,8 +170,7 @@ Then open your browser to: `http://127.0.0.1:8050`
 ## Key Findings
 
 - Launch success rate improved from ~50% to ~80%+ over time
-- Certain launch sites show higher success rates
-- LEO (Low Earth Orbit) missions more successful than GEO
+- Certain launch sites show higher success rates than others
 - Payload mass inversely correlates with landing success
 - Experience and reusability positively impact outcomes
 
@@ -179,14 +178,18 @@ Then open your browser to: `http://127.0.0.1:8050`
 
 ## Machine Learning Models
 
-| Model | Type | Performance |
-|-------|------|-------------|
-| Logistic Regression | Linear Classification | Fast & Interpretable |
-| Random Forest | Ensemble | High Accuracy |
-| Gradient Boosting | Advanced Ensemble | Best Performance |
-| Support Vector Machine | Kernel-based | Non-linear |
+The following 4 models were trained and optimized using **GridSearchCV** with 10-fold cross-validation on standardized data, with an 80/20 train/test split:
 
-**Metrics:** Accuracy, Precision, Recall, F1-Score, AUC-ROC
+| Model | Type | Validation Accuracy |
+|-------|------|---------------------|
+| Logistic Regression | Linear Classification | 84.6% |
+| Support Vector Machine (SVM) | Kernel-based, Non-linear | 84.8% |
+| Decision Tree | Classification by Rules | **87.7%** (Best Model) |
+| k-Nearest Neighbors (k-NN) | Distance-based | 84.8% |
+
+**Best Performing Model:** The **Decision Tree** classifier achieved the highest validation accuracy at **87.7%** and was selected as the final model for predictions.
+
+**Evaluation Metrics:** Validation accuracy (via `GridSearchCV.best_score_`), test accuracy, and confusion matrix analysis.
 
 ---
 
@@ -198,7 +201,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Author
 
-**Josias Minza** ([@joes-mza](https://github.com/joes-mza))
+**Josias Minza**
 
 GitHub: [SpaceX Falcon 9 Data Science Capstone](https://github.com/joes-mza/SpaceX-Falcon9-DataScience-Capstone)
 
@@ -215,3 +218,7 @@ GitHub: [SpaceX Falcon 9 Data Science Capstone](https://github.com/joes-mza/Spac
 ---
 
 **Status:** Complete ✅ | **Last Updated:** July 2026
+
+---
+
+![SpaceX Falcon 9](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Falcon_9_Full_Stack_800px.png/440px-Falcon_9_Full_Stack_800px.png)
